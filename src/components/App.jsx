@@ -5,7 +5,7 @@ export const App = () => {
         height: '100vh',
         display: 'flex',
         justifyContent: 'center',
-        alignItems: 'center',
+        alignItems: 'start',
         fontSize: 40,
         color: '#010101'
       }}
