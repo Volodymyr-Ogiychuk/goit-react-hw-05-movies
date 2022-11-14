@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(194, 192, 192);
+
+}
+
+.imgStyle {
+    padding-left: 20px;
+}
+
+.searchBtn {
+    font-size: 20px;
+}
+
+.navBtn {
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 20px;
+    background-color: rgb(233, 231, 236);
+    text-decoration: none;
+    padding: 3px;
+    border-radius: 4px;
+    color: black;
+}
+
+.descr {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.navlinkItem {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.title {
+    font-size: 26px;
+}
+.header {
+    margin: 0;
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 0;
+    color: gray;
+}
+.textInfo {
+    color: black;
+    font-weight: 600;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid rgb(194, 192, 192);
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+.menu:active {
+    color: red;
+}

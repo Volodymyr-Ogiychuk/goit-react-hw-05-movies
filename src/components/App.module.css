@@ -1,0 +1,14 @@
+.App {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 40;
+    color: #010101;
+    background-color: gray;
+    
+}
+
+.Menu:active {
+    color: red;
+}

@@ -1,0 +1,21 @@
+.header {
+    border-bottom: 2px solid rgb(192, 189, 189);
+    margin-bottom: 10px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menuItem {
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.menuItem:active {
+    color: red;
+}
