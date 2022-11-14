@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/80.ed9c0280.chunk.css","mappings":"AAAA,yBAEI,cAAe,CADf,WAEJ,CACA,6BACI,cACJ","sources":["components/Pages/MoviesPage.module.css"],"sourcesContent":[".input {\n    width: 250px;\n    font-size: 20px;\n}\n.searchBtn {\n    font-size: 20px;\n}"],"names":[],"sourceRoot":""}
