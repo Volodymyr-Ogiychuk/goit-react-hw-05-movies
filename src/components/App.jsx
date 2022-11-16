@@ -10,7 +10,6 @@ const Reviews = lazy(() => import('./Reviews/Reviews'));
 
   const App = () => {
   return (
-    <> 
     <Routes>
       <Route path="/" element={<SuspenseLoading />}>
         <Route index element={<HomePage />} />
@@ -19,9 +18,9 @@ const Reviews = lazy(() => import('./Reviews/Reviews'));
           <Route path="cast" element={<Cast />}></Route>
           <Route path="reviews" element={<Reviews />}></Route>
         </Route>
+        <Route path="*" element={<div>Not Found</div>} />
       </Route>
     </Routes>
-    </>
   );
 };
 
